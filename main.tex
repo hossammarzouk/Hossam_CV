@@ -1,0 +1,52 @@
+% !TEX Must be compiled using *luatex*
+% USA STEM CV LaTeX Template
+%
+% Author:
+% Sabrina Benge
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+% Source: https://github.com/darwiin/yaac-another-awesome-cv
+
+\documentclass[localFont,alternative]{documentMETADATA}
+\name{Hossam}{Marzouk}
+\tagline{Ph.D. student}
+%\photo{2.5cm}{DCE2small2}
+\socialinfo{
+	\personalLink{hossammarzouk.com}\\
+	\email{h.marzouk@uni-muenster.de}
+	\smartphone{+49 1522 211 9244}\\
+	\address{Gescherweg 50, Münster, 48161, Germany }
+}
+
+\begin{document}
+
+\makecvheader
+
+\makecvfooter
+{\textsc{}} %\selectlanguage{english}\today
+{\textsc{Hossam Marzouk - CV}}
+{\thepage}
+
+\input{sections/section_aboutMe}				    % Section Skills
+
+% \input{sections/section_headline}                % Research Statement
+\input{sections/section_experience}	        	% Section Professional Experience
+\input{sections/section_education}      % Section Teaching and Mentoring
+\input{sections/section_skills_language}				    % Section Skills
+% \input{section_languages}					% Section languaqes
+
+\input{sections/section_publications_etc}        % Section Publications, presentations,...
+\input{sections/section_confernce}
+%	\input{section_honors_awards}			% Section Honors and Awards
+%\input{section_interets}				% Section interests
+% \input{section_projects}                 % Section Projects
+%	\input{section_outreach_volunteering}   % Section Professional Outreach and volunteering
+%	\input{section_certifications}          % Section Certifications
+%	\input{section_references} 				% Section references
+
+\begin{flushright}
+	\textbf{References available upon request}
+\end{flushright}
+
+\end{document}
